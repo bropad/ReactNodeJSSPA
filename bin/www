@@ -1,0 +1,6 @@
+let app = require('../server/server');
+
+let port = 8090;
+app.listen(port, () => {
+    console.log('running on port' + port);
+})
